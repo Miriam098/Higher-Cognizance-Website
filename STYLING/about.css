@@ -1,0 +1,161 @@
+/*Global Styling*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px 24px;
+}
+
+.current {
+    color: #ba5971;
+}
+
+/*Header Section*/
+
+.header-section {
+    display: flex;
+    background-color: rgba(211, 193, 193, 0.829);
+    margin: 0;
+    padding: 0;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;    
+    margin: 0px 20px;
+    padding: 10px;
+}
+
+.logo-link{
+    margin: 0;
+    padding: 0px;
+}
+
+.logo {
+    width: 300px;
+    height: 100px;
+    margin: 0;
+    padding 0;
+}
+
+.navbar {
+    justify-content: flex-end;
+    align-self: right;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: #ba5971;
+    border: none;
+    color: beige;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 0 6px 16px 0 rgba(218, 171, 171, 0.5), 0 0px 6px 0 rgba(218, 171, 171, 0.5);
+}
+
+button:hover {
+    color: beige;
+    opacity: 0.9;
+    background-color: #ba5971;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #ba5971;
+}
+
+ul {
+    display: flex;
+   flex-direction: row;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+li a {
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+}
+
+li a:hover {
+        opacity: 0.7;
+        background-color: black;
+        color: white;  
+}
+
+/*Footer Section*/
+
+footer {
+    height: 15%;
+    width: 100%;
+    background-color:rgba(211, 193, 193, 0.829);
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Social Media Icons sections*/
+
+.fa {
+    padding: 1em;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2; 
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    background-color: black;
+    color: white;
+}
+
+.fa:active {
+    background-color: grey;
+}
+
+.fa-facebook {
+    background: white;
+    color: rgb(0, 0, 0);
+  }
+  
+  .fa-instagram {
+    background: white;
+    color: black;
+  }
+
+  .fa-linkedin {
+      background-color: white;
+      color: black;
+  }
+  
+  .fa-youtube {
+    background: white;
+    color: black;
+  }
+
+
+
