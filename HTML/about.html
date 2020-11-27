@@ -1,50 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="../STYLING/about.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" type="text/css" href="../STYLING/about.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
     <!--HEADER SECTION-->
 
     <header class="header-section">
-        <div class="nav-container">
-            <a href="home.html" class="logo-link">
-                <img class="logo" src="logo2.png" alt="Higher Cognizance Logo">
-            </a>
+      <div class="nav-container">
+        <a href="home.html" class="logo-link">
+          <img class="logo" src="logo2.png" alt="Higher Cognizance Logo" />
+        </a>
 
-            <!---NAVIGATION BAR-->
+        <!---NAVIGATION BAR-->
 
-                <nav class="navbar">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a class="current" href="about.html">About Us</a></li>
-                    </ul>
-                </nav>
-            <button>Donate</button>
-        </div>
+        <nav class="navbar">
+          <ul class="main-nav" id="nav-ul">
+            <li>
+              <a href="index.html" class="nav-links">Home</a>
+            </li>
+            <li>
+              <a href="contact.html" class="nav-links">Contact</a>
+            </li>
+            <li>
+              <a class="current" href="about.html" class="nav-links"
+                >About Us</a
+              >
+            </li>
+          </ul>
+          <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fas fa-bars"></i>
+          </span>
+        </nav>
+        <button>Donate</button>
+      </div>
     </header>
 
     <!--MAIN SECTION-->
 
     <main>
-        
+      <article class="about-info">
+        <h2>My Story</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+          odit dolorem quae expedita beatae quis ullam? Similique saepe rerum
+          perferendis aspernatur porro? Quia hic odio ratione repudiandae mo
+          llitia rerum, sequi ab non ea quae tempore earum et? Temporibus eaque
+          necessitatibus sunt nemo vero quidem fuga, in est corrupti, a neque
+          perferendis id dolore sit, nobis voluptatum aspernatur beatae quae
+          laboriosam.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis qui,
+          eligendi praesentium nobis fuga ullam ducimus labore vero delectus
+          natus sit iure fugit dolorum repellendus vel. Porro officia repellat
+          ullam!
+        </p>
+      </article>
+      <img
+        src="/images/123173152_3481581435264344_2183463759752681342_o.jpg"
+        alt="Daphne smiling"
+        class="daphne-img"
+      />
     </main>
 
     <!--FOOTER SECTION-->
     <footer>
-        <h3> Follow us on :</h3>
-        <div class="sm-icons">
-        <a href="https://www.facebook.com/highercognizance/" class="fa fa-facebook"></a>
+      <h3>Follow us on :</h3>
+      <div class="sm-icons">
+        <a
+          href="https://www.facebook.com/highercognizance/"
+          class="fa fa-facebook"
+        ></a>
         <a href="#" class="fa fa-instagram"></a>
         <a href="#" class="fa fa-linkedin"></a>
         <a href="#" class="fa fa-youtube"></a>
-        </div>
+      </div>
     </footer>
-</body>
+
+    <script src="/JAVASCRIPT/index.js"></script>
+  </body>
 </html>
