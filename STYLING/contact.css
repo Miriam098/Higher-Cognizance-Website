@@ -1,213 +1,220 @@
 /*Global Styling*/
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    display: block;
-    flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    margin: 0;
-    padding: 0;
+  display: block;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-    text-decoration: none;
-    padding: 10px 24px;
+  text-decoration: none;
+  padding: 10px 24px;
 }
 
 .current {
-    color: #ba5971;
+  color: #ba5971;
 }
 
 /*Header Section*/
 
 .header-section {
-    display: flex;
-    background-color: rgba(211, 193, 193, 0.829);
-    margin: 0;
-    padding: 0;
+  display: flex;
+  background-color: rgba(211, 193, 193, 0.829);
+  margin: 0;
+  padding: 0;
 }
 .nav-container {
-    display: flex;
-    justify-content: space-between;
-    height: 120px;
-    width: 100%;
-    flex-direction: row;
-    align-items: center;    
-    margin: 0px 20px;
-    padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  height: 120px;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px 20px;
+  padding: 10px;
 }
 
-.logo-link{
-    margin: 0;
-    padding: 0px;
+.logo-link {
+  margin: 0;
+  padding: 0px;
 }
 
 .logo {
-    width: 300px;
-    height: 100px;
-    margin: 0;
-    padding: 0;
+  width: 300px;
+  height: 100px;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar {
-    justify-content: flex-end;
-    align-self: right;
-    margin: 0;
-    padding: 0;
+  justify-content: flex-end;
+  align-self: right;
+  margin: 0;
+  padding: 0;
 }
 
 button {
-    background-color: #ba5971;
-    border: none;
-    color: beige;
-    padding: 10px 24px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 600;
-    box-shadow: 0 6px 16px 0 rgba(218, 171, 171, 0.5), 0 0px 6px 0 rgba(218, 171, 171, 0.5);
+  background-color: #ba5971;
+  border: none;
+  color: beige;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0 6px 16px 0 rgba(218, 171, 171, 0.5),
+    0 0px 6px 0 rgba(218, 171, 171, 0.5);
 }
 
 button:hover {
-    color: beige;
-    background-color: #a0495f;
-    cursor: pointer;
+  color: beige;
+  background-color: #a0495f;
+  cursor: pointer;
 }
 
 button:active {
-    opacity: 0.9;
-    background-color: #ba5971;
+  opacity: 0.9;
+  background-color: #ba5971;
 }
 
 ul {
-    display: flex;
-   flex-direction: row;
-   list-style: none;
-   margin: 0;
-   padding: 0;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 li a {
-    color: rgb(0, 0, 0);
-    font-size: x-large;
+  color: rgb(0, 0, 0);
+  font-size: x-large;
 }
 
 li a:hover {
-        opacity: 0.7;
-        background-color: black;
-        color: white;  
+  opacity: 0.7;
+  background-color: black;
+  color: white;
 }
 
 /*Form Section*/
 form {
-    position: relative;
-    width: 40%;
-    margin-left: 40px;
-    box-sizing: border-box;
-    background-color: rgba(211, 193, 193, 0.829);
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    margin-top: 20px;
-    box-shadow: 0 6px 16px 0 rgba(167, 130, 130, 0.562), 0 0px 6px 0 rgba(218, 171, 171, 0.5);
-
+  position: relative;
+  width: 40%;
+  margin-left: 40px;
+  box-sizing: border-box;
+  background-color: rgba(211, 193, 193, 0.829);
+  text-align: center;
+  padding: 20px 0;
+  margin: auto;
+  box-shadow: 0 6px 16px 0 rgba(167, 130, 130, 0.562),
+    0 0px 6px 0 rgba(218, 171, 171, 0.5);
 }
 input {
-    width: 70%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
-input[type=submit] {
-    width: 40%;
-    background-color: #ba5971;
-    color: beige;
-    padding: 10px 24px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 600;
-    box-shadow: 0 6px 16px 0 rgba(218, 171, 171, 0.5), 0 0px 6px 0 rgba(218, 171, 171, 0.5);
+input[type="submit"] {
+  width: 40%;
+  background-color: #ba5971;
+  color: beige;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0 6px 16px 0 rgba(218, 171, 171, 0.5),
+    0 0px 6px 0 rgba(218, 171, 171, 0.5);
+  margin-top: 20px;
 }
 
-input[type=submit]:hover {
-    background-color: #a0495f;
-    cursor: pointer;
-  }
+input[type="submit"]:hover {
+  background-color: #a0495f;
+  cursor: pointer;
+}
+
+input:placeholder-shown {
+  text-align: center;
+}
+
+input:read-write {
+  text-align: center;
+}
 
 textarea {
-      width: 80%;
-      height: 150px;
-      padding: 12px 20px;
-      border: 2px solid #ccc;
-      border-radius: 4px;
-      background-color: #f8f8f8;
-      font-size: 16px;
-      resize: none;
-  }
+  width: 80%;
+  height: 150px;
+  padding: 12px 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
 
 /*Footer Section*/
 
 footer {
-    height: 15%;
-    width: 100%;
-    background-color:rgba(211, 193, 193, 0.829);
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
+  height: 15%;
+  width: 100%;
+  background-color: rgba(211, 193, 193, 0.829);
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 /* Social Media Icons sections*/
 
 .fa {
-    padding: 1em;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2; 
-    border-radius: 50%;
+  padding: 1em;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2;
+  border-radius: 50%;
 }
 
 .fa:hover {
-    opacity: 0.7;
-    background-color: black;
-    color: white;
+  opacity: 0.7;
+  background-color: black;
+  color: white;
 }
 
 .fa:active {
-    background-color: grey;
+  background-color: grey;
 }
 
 .fa-facebook {
-    background: white;
-    color: rgb(0, 0, 0);
-  }
-  
-  .fa-instagram {
-    background: white;
-    color: black;
-  }
+  background: white;
+  color: rgb(0, 0, 0);
+}
 
-  .fa-linkedin {
-      background-color: white;
-      color: black;
-  }
-  
-  .fa-youtube {
-    background: white;
-    color: black;
-  }
+.fa-instagram {
+  background: white;
+  color: black;
+}
 
+.fa-linkedin {
+  background-color: white;
+  color: black;
+}
 
-
+.fa-youtube {
+  background: white;
+  color: black;
+}

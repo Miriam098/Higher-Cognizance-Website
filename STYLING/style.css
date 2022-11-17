@@ -55,7 +55,7 @@ a {
   padding: 0;
 }
 
-button {
+.button {
   background-color: #ba5971;
   border: none;
   color: beige;
@@ -68,15 +68,50 @@ button {
     0 0px 6px 0 rgba(218, 171, 171, 0.5);
 }
 
-button:hover {
+.button:hover {
   color: beige;
   opacity: 0.5;
   background-color: #ba5971;
   cursor: pointer;
 }
 
-button:active {
+.button:active {
   background-color: #ba5971;
+}
+
+/*Button Modal*/
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: rgba(211, 193, 193, 0.829);
+  margin: 20% auto;
+  padding: 20px;
+  width: 70%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+}
+
+.closeBtn {
+  color: #ba5971;
+  float: right;
+  font-size: 30px;
+}
+
+.closeBtn:hover,
+.closeBtn:focus {
+  color: #ba5971;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 ul {
@@ -187,22 +222,4 @@ footer {
 .fa-youtube {
   background: white;
   color: black;
-}
-
-@media only screen and (max-width: 375px) {
-  .logo {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 375) {
-  .logo {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .logo {
-    display: none;
-  }
 }
